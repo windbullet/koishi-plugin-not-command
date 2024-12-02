@@ -1,0 +1,22 @@
+{
+  "name": "koishi-plugin-not-command",
+  "description": "机器人被at时，如果消息不会被指令或中间件响应，反馈一条消息",
+  "version": "0.0.1",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "dist"
+  ],
+  "license": "MIT",
+  "scripts": {},
+  "keywords": [
+    "chatbot",
+    "koishi",
+    "plugin"
+  ],
+  "devDependencies": {},
+  "peerDependencies": {
+    "koishi": "^4.18.0"
+  }
+}
